@@ -1,0 +1,293 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  padding:0;
+  margin:0;
+  background-color:#f4f4f4;
+}
+
+/* Pangkalahatan */
+.container{
+  width:80%;
+  margin:auto;
+  overflow:hidden;
+}
+
+ul{
+  margin:0;
+  padding:0;
+}
+
+.dark{
+  padding: 15px;
+  background: #303C6C;
+  color: #ffffff;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+/* Header */
+header{
+  background: #4E4E50;
+  color: #ffffff;
+  padding-top: 30px;
+  min-height: 70px;
+  border-bottom: #B4DFE5 3px solid;
+}
+
+header a{
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+header li{
+  float: left;
+  display: inline;
+  padding: 0 20px 0 20px;
+}
+
+header #branding{
+  float: left;
+}
+
+header #branding h1{
+  margin: 0;
+}
+
+header nav{
+  float: right;
+  margin-top: 15px;
+}
+
+header .highlight, header .current a{
+  color: #B4DFE5;
+  font-weight: bold;
+}
+
+header a hover{
+  color: #cccccc;
+  font-weight: bold;
+}
+
+/*HEADER STYLE*/
+.header{
+  position: fixed;
+  margin-top: 25px;
+}
+ 
+h1 {
+    text-align: center;
+}
+
+h2 {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+p.main1{
+  margin-left: 15px;
+  text-align: center;
+}
+
+p.main2{
+  margin-left: 15px;
+  text-align: center;
+}
+
+/* Boxes-Issues and Solutions */
+#boxes-ias{
+  margin-top: 100px;
+}
+
+#boxes-ias .box{
+  float: left;
+  text-align: center;
+  width: 30%;
+  padding: 10px;
+}
+
+#boxes-ias .box img{
+  width: 90px;
+}
+
+/* Showcase */
+#showcase{
+  min-height: 400px;
+  background: url('../img/Background.jpg') no-repeat -250px -450px;
+  text-align: center;
+  text-shadow: 1px 1px #000000; 
+  color: #ffffff;
+}
+
+#showcase h2{
+  margin-top: 100px;
+  font-size: 55px;
+  margin-bottom: 10px;
+}
+
+#showcase p{
+  font-size: 20px;
+}
+
+/* Boxes [Gender Equality] */
+#boxes{
+  margin-top: 20px;
+}
+
+#boxes .box{
+  float: left;
+  text-align: center;
+  width: 30%;
+  padding: 10px;
+}
+
+#boxes .box img{
+  width: 90px;
+}
+
+/* Article */
+article #main-col{
+  float: left;
+  width: 65%;
+}
+
+/* Services */
+ul #services li{
+  list-style: none;
+  padding: 20px;
+  border: #cccccc solid 1px;
+  margin-bottom: 5px;
+  background: #e6e6e6;
+}
+
+footer{
+  padding:20px;
+  margin-top:20px;
+  color:#ffffff;
+  background-color:#4E4E50;
+  text-align: center;
+}
+
+
+/* Media Queries */
+@media(max-width: 768px){
+  header #branding,
+  header nav,
+  header nav li,
+  #boxes .box,
+  article #main-col,
+
+  header{
+    padding-bottom: 20px;
+  }
+
+  #showcase h1{
+    margin-top: 40px;
+  }
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even){
+    background-color: #f2f2f2
+}
+
+th {
+    background-color: #45A29E;
+    color: white;
+}
+
+/*TABLE - Gender Equality*/
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    padding: 8px;
+    text-align: center;
+    border-bottom: 1px solid #DDDDDD;
+}
+
+tr:hover {
+  background-color:#F5F5F5;
+}
+
+p.table-text{
+  margin-left: 15px;
+  text-align: left;
+}
+
+/* Boxes-About us - 3 Websites */
+#boxes-about{
+  margin-top: 20px;
+}
+
+#boxes-about .box{
+  float: left;
+  text-align: center;
+  width: 30%;
+  padding: 10px;
+}
+
+.dark-events{
+  padding: 15px;
+  background: #303C6C;
+  color: #FFFFFF;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: justify;
+}
+
+.source-title{
+  font-weight: bold;
+}
+
+/* Additional: Advocacy 1 */
+
+p.source-title-envi{
+   margin-left: 10px;
+   margin-right: 10px;
+   text-align: center;
+   font-weight: bold;
+}
+
+p.index-text-envi{
+   margin-left: 10px;
+   margin-right: 10px;
+   margin-top: 30px;
+}
+
+#gallery-envi{
+    margin-left: 60px;
+    align-content: center;
+}
+
+.dark-about-envi{
+  padding: 15px;
+  background: #303C6C;
+  color: #FFFFFF;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  text-align: justify;
+}
+
+.footer-envi {
+   padding:20px;
+   margin-top:20px;
+   background-color: #86C232;
+   color: #FFFFFF;
+   text-align: center;
+}
