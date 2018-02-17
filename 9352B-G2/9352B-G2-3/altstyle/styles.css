@@ -1,0 +1,131 @@
+/*Gender Equality*/
+body{
+	background-image:linear-gradient(#89bdd3,#9ad3de, #c9c9c9);
+    background-repeat:repeat;
+}
+nav ul{
+	list-style-type: none;
+	margin: 0;
+	padding:0;
+	overflow: hidden;
+	background-color:black; 
+	position: absolute;
+	top:0;
+	width:100%;
+}
+nav li{
+	font-size:20px;
+	font-family:"Arial";
+	position:static;
+	float:left;
+	font-weight:bold;
+}
+nav li a{
+	display:block;
+	color:#8D8741;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+nav li a:hover:not(.active){
+	background-color:#BC986A;
+}
+
+.section-envi{
+	color:#FBEEC1;
+	font-style:italic;
+	font-size:20px;
+}
+.section-envi p{
+    font-size:30px;
+    padding-bottom:20vh;
+    text-align:center;
+}
+.section-envi h1{
+	padding:100px;
+	font-family:"Georgia";
+	font-size:80px;
+	color:white;
+}
+.index-text-envi h1{
+	padding:30px;
+	font-size:20px;
+}
+.index-text-envi p{
+	padding:inherit;
+	font-size:20px;
+}
+footer p{
+  color:#8D8741;
+  position:relative;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 10px;
+  background-color:black;
+  text-align: center;
+}
+#main-col{
+	text-align:center;
+	font-family:"Arial";
+	}
+#main-col h3, h2{
+	text-align:center;
+	padding:10px;
+	border-top-style:double;
+	border-top-color:black;
+	font-size:24px;
+	}
+.main1{
+	font-family:"Arial";
+	font-size:20px;
+	font-style:normal;
+	}
+#box-ias{
+	display:inline-table; 
+	vertical-align: middle;
+	}
+.box img{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+	}	
+h1{
+	text-align:center;
+	padding:40px;
+	font-family:"Verdana";
+	font-size:80px;
+	color:white;
+	text-shadow: 2px 2px 4px #000000;
+	}
+#boxes-ias p, h3{
+	font-size:26px;
+	color:black;
+	}
+#boxes-about ul,li, h3{
+	text-align:center;
+	list-style-position:inside;
+	}
+a{
+	display:block;
+	color:black;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	}
+table {
+    border-collapse: collapse;
+	margin-left:50px;
+}
+
+table,th, td {
+    border: 1px solid black;
+	padding-right:20px;
+	padding-left:20px;
+	padding:15px;
+	text-align:center;
+}
+.table-text {
+	font-weight:bold;
+	}
