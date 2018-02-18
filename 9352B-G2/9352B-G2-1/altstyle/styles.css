@@ -1,3 +1,265 @@
+body{
+
+	background-image:linear-gradient(#89bdd3,#9ad3de, #c9c9c9);
+    background-repeat:repeat;
+}
+
+p{
+	font-family: "a little sunshine";
+	font-size: 30px;
+}
+
+nav ul{
+	list-style-type: none;
+	margin: 0;
+	padding:0;
+	overflow: hidden;
+	background-color:black; 
+	position: absolute;
+	top:0;
+	width:100%;
+}
+nav li{
+	font-size:20px;
+	font-family:"Arial";
+	position:static;
+	float:left;
+	font-weight:bold;
+}
+nav li a{
+	display:block;
+	color:#8D8741;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+nav li a:hover:not(.active){
+	background-color:#BC986A;
+}
+
+.section-envi{
+	color:#FBEEC1;
+	font-style:italic;
+	font-size:20px;
+}
+.section-envi p{
+    font-size:30px;
+    padding-bottom:20vh;
+    text-align:center;
+}
+.section-envi h1{
+	padding:100px;
+	font-family:"sunrise international demo";
+	font-size:80px;
+	color:white;
+}
+.index-text-envi h1{
+	padding:30px;
+	font-size:20px;
+
+}
+.index-text-envi p{
+	padding:inherit;
+	font-size:20px;
+}
+footer p{
+  color:#8D8741;
+  position:relative;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 10px;
+  background-color:black;
+  text-align: center;
+}
+#main-col{
+	text-align:center;
+	font-family:"a little sunshine";
+	font-size: 30px;
+	}
+#main-col h3, h2{
+	font-family:"sunrise international demo";
+	text-align:center;
+	padding:50px;
+	border-top-style:double;
+	border-top-color:black;
+	font-size:24px;
+	}
+.main1{
+	font-family:"Arial";
+	font-size:20px;
+	font-style:normal;
+	}
+#box-ias{
+	display:inline-table; 
+	vertical-align: middle;
+	}
+.box img{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+	}	
+h1{
+	text-align:center;
+	padding:40px;
+	font-family:"Sunrise International demo";
+	font-size:80px;
+	color:white;
+	text-shadow: 2px 2px 4px #000000;
+	}
+h2{
+	font-family:"Sunrise International demo";
+	font-size:50px;
+
+	}
+#boxes-ias h3{
+	font-size:50px;
+	color:black;
+	font-family: "sunrise international demo";
+	}
+#boxes-about ul,li, h3{
+	text-align:center;
+	list-style-position:inside;
+	font-family: "sunrise international demo";
+	font-size: 50px;
+	}
+a{
+	display:block;
+	color:black;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	}
+table {
+    border-collapse: collapse;
+	margin-left:50px;
+}
+
+table,th, td {
+    border: 1px solid black;
+	padding-right:20px;
+	padding-left:20px;
+	padding:15px;
+	text-align:center;
+}
+.table-text {
+	font-weight:bold;
+	}
+/*Substance Abuse prevention*/
+body{
+	background-image:linear-gradient(#89bdd3,#9ad3de, #c9c9c9);
+    background-repeat:repeat;
+}
+
+.navbar ul{
+	list-style-type: none;
+	margin: 0;
+	padding:0;
+	overflow: hidden;
+	background-color:black; 
+	position: absolute;
+	top:0;
+	width:100%;
+}
+.navlist li{
+	font-size:20px;
+	font-family:"Arial";
+	position:static;
+	float:left;
+	font-weight:bold;
+}
+.navlist li a{
+	display:block;
+	color:#8D8741;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+.navlist li a:hover:not(.active){
+	background-color:#BC986A;
+}
+p{
+    font-size:30px;
+    padding-bottom:20px;
+	text-align:center;
+	font-family: "a little sunshine"
+
+}
+header{
+	text-align:center;
+	padding:10px;
+	font-family:"sunrise international demo";
+	font-size:50px;
+	color:black;
+}
+
+.footer2{
+  color:#8D8741;
+  position:relative;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 10px;
+  background-color:black;
+  text-align: center;
+}
+.footer{
+  color:#8D8741;
+  position:relative;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 10px;
+  background-color:black;
+  text-align: center;
+}
+h1{
+	text-align:center;
+	padding:40px;
+	font-family:"sunrise international demo";
+	font-size:60px;
+	color:black;
+	text-shadow: 2px 2px 4px #000000;
+	}
+li, h2, h3{
+	text-align:center;
+	color:black;
+	font-family:"sunrise international demo";
+	font-size: 30px;
+	}
+a{
+	display:block;
+	color:black;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	}
+.news1{
+	display:inline-table; 
+	vertical-align: middle;
+	}
+.news1 img{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+	}	
+.gimgs img{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+	}
+.news-content{
+	text-align:center;
+	}
+.box img{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+	}
 /*Environmental Protection*/
 body{
 	background-image:linear-gradient(#89bdd3,#9ad3de, #c9c9c9);
@@ -56,14 +318,15 @@ nav li a:hover:not(.active){
 	}
 .section-envi h1{
 	padding:100px;
-	font-family:"Georgia";
+	font-family:"sunrise international demo";
 	font-size:80px;
 	color:white;
 	}
 /*Paragraph(features.html, Advocacy.html, News.html and index.html)*/
 p.index-text-envi{
 	color:black;
-	font-size:20px;
+	font-size:30px;
+	font-family: "a little sunshine";
 	}
 /*Footer*/
 .footer-envi p{
@@ -78,8 +341,8 @@ p.index-text-envi{
 	}
 /*Article (About.html and Advocacy.html)*/
 #main-col-envi{
-	padding:30px;
-	font-family:"Arial";
+	padding:40px;
+	font-family:"a little sunshine";
 	}
 #main-col-envi h1{
 	background-image:url(./backgrounds/waste.png),url(./backgrounds/trash.png), url(./backgrounds/landfills.png);
@@ -103,10 +366,9 @@ p.index-text-envi{
 	}
 /*Paragraph (About.html)*/
 p.dark-about-envi{
-	font-family:"Arial";
-	font-size:20px;
+	font-family:"a little sunshine";
+	font-size:30px;
 	font-style:normal;
-	text-align:top;
 	padding-top:288px;
 	background-image:url(./backgrounds/LOGO.jpg);
 	background-position:top;
@@ -134,7 +396,7 @@ p.dark-about-envi{
 #gallery-envi h1{
 	text-align:center;
 	padding:40px;
-	font-family:"Georgia";
+	font-family:"sunrise international demo";
 	font-size:80px;
 	color:white;
 	background-image:url(./backgrounds/trees.png);
@@ -148,14 +410,8 @@ p.dark-about-envi{
 	border-style:inherit;
 	max-width: 100%;
 	margin:5px;
-  
-  -moz-transition:  0.3s;
-  -webkit-transition:  0.3s;
-  transition:  0.3s;
 	}
 #gallery-envi:hover img {
-  -moz-transform: scale(1.1);
-  -webkit-transform: scale(1.1);
   transform: scale(1.1);
 }
 /*Paragraph (Gallery.html)*/
@@ -169,15 +425,16 @@ p.source-title-envi{
 h1{
 	text-align:center;
 	padding:40px;
-	font-family:"Verdana";
+	font-family:"Sunrise international demo";
 	font-size:80px;
 	color:white;
 	text-shadow: 2px 2px 4px #000000;
 	}
-/*h2 tag, paragraph tag, list tag, and h3 tag*/
-h2, p, li, h3{
-	font-size:14px
+/*h2 tag,  and h3 tag*/
+h2, h3{
+	font-size:30px;
 	color:black;
+	font-family: "sunrise international demo";
 	}
 /*Anchor tag*/
 a{
@@ -187,3 +444,4 @@ a{
 	padding: 14px 16px;
 	text-decoration: none;
 	}
+	
