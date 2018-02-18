@@ -1,8 +1,15 @@
 /*Gender Equality*/
 body{
+
 	background-image:linear-gradient(#89bdd3,#9ad3de, #c9c9c9);
     background-repeat:repeat;
 }
+
+p{
+	font-family: "a little sunshine";
+	font-size: 30px;
+}
+
 nav ul{
 	list-style-type: none;
 	margin: 0;
@@ -43,13 +50,14 @@ nav li a:hover:not(.active){
 }
 .section-envi h1{
 	padding:100px;
-	font-family:"Georgia";
+	font-family:"sunrise international demo";
 	font-size:80px;
 	color:white;
 }
 .index-text-envi h1{
 	padding:30px;
 	font-size:20px;
+
 }
 .index-text-envi p{
 	padding:inherit;
@@ -67,11 +75,13 @@ footer p{
 }
 #main-col{
 	text-align:center;
-	font-family:"Arial";
+	font-family:"a little sunshine";
+	font-size: 30px;
 	}
 #main-col h3, h2{
+	font-family:"sunrise international demo";
 	text-align:center;
-	padding:10px;
+	padding:50px;
 	border-top-style:double;
 	border-top-color:black;
 	font-size:24px;
@@ -94,18 +104,26 @@ footer p{
 h1{
 	text-align:center;
 	padding:40px;
-	font-family:"Verdana";
+	font-family:"Sunrise International demo";
 	font-size:80px;
 	color:white;
 	text-shadow: 2px 2px 4px #000000;
 	}
-#boxes-ias p, h3{
-	font-size:26px;
+h2{
+	font-family:"Sunrise International demo";
+	font-size:50px;
+
+	}
+#boxes-ias h3{
+	font-size:50px;
 	color:black;
+	font-family: "sunrise international demo";
 	}
 #boxes-about ul,li, h3{
 	text-align:center;
 	list-style-position:inside;
+	font-family: "sunrise international demo";
+	font-size: 50px;
 	}
 a{
 	display:block;
